@@ -5,13 +5,9 @@ driver = webdriver.Chrome(
     executable_path='D:\Documents\CodingBlocks\CNinjas\Selenium\chromedriver_win32\chromedriver.exe')
 driver.get('https://web.whatsapp.com/')
 
-# name = input("Enter the name of person/group: ")
-# msg = input("Enter message to be sent: ")
-# count = int(input("Enter count: "))
-
-name = "Schrödinger's SOCIETY"
-msg = "@Suchika \t"
-count = 1
+name = input("Enter the name of person/group: ")
+msg = input("Enter message to be sent: ")
+count = int(input("Enter count: "))
 
 driver.implicitly_wait(5)
 
