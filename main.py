@@ -20,4 +20,4 @@ msg_box = driver.find_element_by_xpath(
 for i in range(count):
     msg_box.send_keys(msg)
     send_button = driver.find_element_by_xpath('//button[@class="_1U1xa"]')
-    # send_button.click()
+    send_button.click()
